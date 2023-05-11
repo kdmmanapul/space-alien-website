@@ -1,0 +1,322 @@
+{
+    "testing": false,
+    "loading_image": "./config/icons/saturn.svg",
+    "icons": [
+        {
+            "icon": "./config/icons/twitter.png",
+            "url": "https://stackoverflow.com/questions/4907843/open-a-url-in-a-new-tab-and-not-a-new-window"
+        }
+    ],
+    "planet_info": {
+        "background_color": "000000",
+        "opacity": 0.2
+    },
+    "start_state": 2,
+    "start_position": {
+        "x": 0,
+        "y": 200,
+        "z": 0
+    },
+    "start_look_at": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "landing_sound": {
+        "url": "./config/audio/landing.mp3",
+        "volume": 0.5
+    },
+    "background_sound": 
+    {
+        "url": "./config/audio/background.mp3",
+        "volume": 0.5
+    },
+    "path": {
+        "width": 0.2,
+        "color": "87CEEB"
+    },
+    "follower": {
+        "color": "FFE87C",
+        "x": -0.1,
+        "y": 0,
+        "z": 0.1,
+        "rotation_x": 0,
+        "rotation_y": 0,
+        "rotation_z": 0,
+        "size": 0.05
+        },
+    "listview": {
+        "x": 12,
+        "y": 12,
+        "z": 0,
+        "look_x": 0,
+        "look_y": 0,
+        "look_z": 2.5
+    },
+    "overview": {
+        "x": 0,
+        "y": 20,
+        "z": 2,
+        "look_x": 0,
+        "look_y": 0,
+        "look_z": 2
+    },
+    "sky": {
+        "color": "001144",
+        "distance": 1000,
+        "num_of_stars": 5000,
+        "star_size": 0.4,
+        "star_blink_speed": 1.75,
+        "min_star_distance": 200,
+        "max_star_distance": 500
+    },
+    "obsticles": [
+        {
+            "position": 0.17,
+            "size": 0.05,
+            "num_of_cubes": 2,
+            "offset_x": 0,
+            "offset_y": 0,
+            "offset_z": 0,
+            "rotation_x": 0,
+            "rotation_y": 0,
+            "rotation_z": 0,
+            "break_sound": "./config/audio/break.mp3",
+            "break_sound_volume": 0.5
+        },
+        {
+            "position": 0.45,
+            "size": 0.05,
+            "num_of_cubes": 2,
+            "offset_x": 0,
+            "offset_y": 0,
+            "offset_z": 0,
+            "rotation_x": 0,
+            "rotation_y": 45,
+            "rotation_z": 0,
+            "break_sound": "./config/audio/break.mp3",
+            "break_sound_volume": 0.5
+        },
+        {
+            "position": 0.55,
+            "size": 0.05,
+            "num_of_cubes": 2,
+            "offset_x": 0,
+            "offset_y": 0,
+            "offset_z": 0,
+            "rotation_x": 0,
+            "rotation_y": 0,
+            "rotation_z": 45,
+            "break_sound": "./config/audio/break.mp3",
+            "break_sound_volume": 0.5
+        },
+        {
+            "position": 0.8,
+            "size": 0.05,
+            "num_of_cubes": 2,
+            "offset_x": 0,
+            "offset_y": 0,
+            "offset_z": 0,
+            "rotation_x": 45,
+            "rotation_y": 0,
+            "rotation_z": 0,
+            "break_sound": "./config/audio/break.mp3",
+            "break_sound_volume": 0.5
+        },
+        {
+            "position": 0.9,
+            "size": 0.05,
+            "num_of_cubes": 2,
+            "offset_x": 0,
+            "offset_y": 0,
+            "offset_z": 0,
+            "rotation_x": 45,
+            "rotation_y": 0,
+            "rotation_z": 0,
+            "break_sound": "./config/audio/break.mp3",
+            "break_sound_volume": 0.5
+        }
+    ],
+    "planets": [
+        {
+            "name": "Saturn",
+            "subtitle": "Saturn subtitle subtitle subtitle",
+            "info": [
+                "<p>Sample text text text <a href='https://www.google.com' target='_blank' style='decoration: none; color: white;'>link</a> text text test test.</p><img src='https://i.pinimg.com/originals/02/f2/64/02f2649eaa7743a8e0a117c3e0a386ee.jpg' width='100%'></img><div style='margin-left: auto; margin-right: auto; width: 100; height: 50;'><a style='decoration: none; color: white; margin-left: auto; margin-right: auto; display: block; float: left; width: 50; height: 50;' href='https:/www.twitter.com' target='_blank'><img width=50 src='./config/icons/twitter.png'></img></a><a style='decoration: none; color: white; margin-left: auto; margin-right: auto; display: block; float: left; width: 50; height: 50;' href='https:/www.twitter.com' target='_blank'><img width=50 src='./config/icons/twitter.png'></img></a></div>",
+                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "Saturn info 3"
+            ],
+            "hover_font_scale": 0.5,
+            "title_font_scale": 0.75,
+            "subtitle_font_scale": 0.75,
+            "texture": "./config/textures/saturn.jpg",
+            "diameter": 1.15,
+            "ring_texture": "./config/textures/saturn_ring.jpg",
+            "add_ring": true,
+            "ring_diameter": 1.45,
+            "ring_thickness": 0.25,
+            "rotation": 15,
+            "rotation_speed": 1,
+            "x": -2.5,
+            "z": 0,
+            "offset_x": 0.0, 
+            "offset_y": 0.1, 
+            "offset_z": -1.5,
+            "music": "./config/audio/0.mp3",
+            "music_volume": 0.8,
+            "hover_scale": 2
+        },
+        {
+            "name": "Jupiter",
+            "subtitle": "Jupiter subtitle",
+            "info": [
+                "Jupiter info 1"
+            ],
+            "texture": "./config/textures/jupiter.jpg",
+            "diameter": 0.25,
+            "add_ring": false,
+            "rotation": 25,
+            "rotation_speed": 3,
+            "x": 3,
+            "z": 0,
+            "offset_x": 0.4, 
+            "offset_y": 0.1, 
+            "offset_z": -0.4,
+            "music": "./config/audio/1.mp3",
+            "music_volume": 0.8,
+            "hover_scale": 10
+        },
+        {
+            "name": "Earth",
+            "subtitle": "Earth subtitle",
+            "info": [
+                "Earth info 1",
+                "Earth info 2",
+                "Earth info 3"
+            ],
+            "texture": "./config/textures/earth.jpg",
+            "diameter": 1,
+            "add_ring": false,
+            "rotation": 25,
+            "rotation_speed": 1,
+            "x": 3.5,
+            "z": 1.5,
+            "offset_x": 1.0, 
+            "offset_y": 0.1, 
+            "offset_z": 0.0,
+            "music": "./config/audio/2.mp3",
+            "music_volume": 0.8,
+            "hover_scale": 2.5
+        },
+        {
+            "name": "Mercury",
+            "subtitle": "Mercury subtitle",
+            "info": [
+                "Mercury info 1",
+                "Mercury info 2",
+                "Mercury info 3"
+            ],
+            "texture": "./config/textures/mercury.jpg",
+            "diameter": 0.25,
+            "add_ring": false,
+            "rotation": 25,
+            "rotation_speed": 1,
+            "x": 0,
+            "z": 3,
+            "offset_x": -0.4, 
+            "offset_y": 0.1, 
+            "offset_z": -0.4,
+            "music": "./config/audio/3.mp3",
+            "music_volume": 0.8,
+            "hover_scale": 10
+        },
+        {
+            "name": "Moon",
+            "subtitle": "moon subtitle",
+            "info": [
+                "moon info 1",
+                "moon info 2",
+                "moon info 3"
+            ],
+            "texture": "./config/textures/moon.jpg",
+            "diameter": 0.25,
+            "add_ring": false,
+            "rotation": 25,
+            "rotation_speed": 1,
+            "x": 0,
+            "z": 6,
+            "offset_x": 0.4, 
+            "offset_y": 0.1, 
+            "offset_z": 0.4,
+            "music": "./config/audio/3.mp3",
+            "music_volume": 0.8,
+            "hover_scale": 10
+        },
+        {
+            "name": "Neptune",
+            "subtitle": "neptune subtitle",
+            "info": [
+                "neptune info 1",
+                "neptune info 2",
+                "neptune info 3"
+            ],
+            "texture": "./config/textures/neptune.jpg",
+            "diameter": 1.25,
+            "add_ring": false,
+            "rotation": 25,
+            "rotation_speed": 1,
+            "x": -3,
+            "z": 6,
+            "offset_x": -2.1, 
+            "offset_y": 0.1, 
+            "offset_z": 0.1,
+            "music": "./config/audio/3.mp3",
+            "music_volume": 0.8,
+            "hover_scale": 2
+        },
+        {
+            "name": "Uranus",
+            "subtitle": "uranus subtitle",
+            "info": [
+                "uranus info 1",
+                "uranus info 2",
+                "uranus info 3"
+            ],
+            "texture": "./config/textures/uranus.jpg",
+            "diameter": 0.5,
+            "add_ring": false,
+            "rotation": 25,
+            "rotation_speed": 1,
+            "x": -4,
+            "z": 4,
+            "offset_x": -0.5, 
+            "offset_y": 0.1, 
+            "offset_z": 0.1,
+            "music": "./config/audio/3.mp3",
+            "music_volume": 0.8,
+            "hover_scale": 5
+        },
+        {
+            "name": "Venus",
+            "subtitle": "venus subtitle",
+            "info": [
+                "venus info 1",
+                "venus info 2",
+                "venus info 3"
+            ],
+            "texture": "./config/textures/venus.jpg",
+            "diameter": 0.75,
+            "add_ring": false,
+            "rotation": 25,
+            "rotation_speed": 1,
+            "x": -4,
+            "z": 1,
+            "offset_x": -0.6, 
+            "offset_y": 0.1, 
+            "offset_z": -0.6,
+            "music": "./config/audio/3.mp3",
+            "music_volume": 0.8,
+            "hover_scale": 4
+        }
+    ]
+}

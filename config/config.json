@@ -1,6 +1,6 @@
 {
     "testing": false,
-    "loading_image": "../img/icons/Logo_STUPID.svg",
+    "loading_image": "img/icons/Logo_STUPID.svg",
     "icons": [
     ],
     "planet_info": {

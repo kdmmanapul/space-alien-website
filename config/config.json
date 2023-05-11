@@ -74,9 +74,9 @@
             "name": "Project Overview",
             "subtitle": "S.T.U.P.I.D. (Space Time Universal Planetary Individual Destroyers)",
             "info": [
-                "<div style='text-align: center; margin-top: -15%; height: 120%;'><img src='../img/images/STUPID.png' height='125%' width='80%'></img></div>",
-                "<div style='text-align: center; margin-top: -8%;'><img src='../img/images/STUPID_PFP.png' height='100%' width='80%'></img><p style='margin-top: -2%;'>Each PFP DeefZoid Avatar is unique and serve as your identity within WEB3. The Traits will be forged in the future for Exclusive Merchandise.</p></div>",
-                "<div style='text-align: center; margin-top: -8%;'><img src='../img/images/Sprite_Battle.png' height='100%' width='70%'></img><p style='margin-top: -2%;'>Each DeefZoid has their own corresponding Sprite Avatar within the S.T.U.P.I.D. P2E Game with their own skill set based on the NFT's traits.</p></div>"
+                "<div style='text-align: center; margin-top: -15%; height: 120%;'><img src='./img/images/STUPID.png' height='125%' width='80%'></img></div>",
+                "<div style='text-align: center; margin-top: -8%;'><img src='./img/images/STUPID_PFP.png' height='100%' width='80%'></img><p style='margin-top: -2%;'>Each PFP DeefZoid Avatar is unique and serve as your identity within WEB3. The Traits will be forged in the future for Exclusive Merchandise.</p></div>",
+                "<div style='text-align: center; margin-top: -8%;'><img src='./img/images/Sprite_Battle.png' height='100%' width='70%'></img><p style='margin-top: -2%;'>Each DeefZoid has their own corresponding Sprite Avatar within the S.T.U.P.I.D. P2E Game with their own skill set based on the NFT's traits.</p></div>"
             ],
             "hover_font_scale": 0.4,
             "title_font_scale": 0.75,
